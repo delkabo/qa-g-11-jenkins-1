@@ -14,7 +14,7 @@ public class TestBase {
 
     @BeforeAll
     static void setUp() {
-        String myLogin = System.getProperty("mylogin");
+        String myLogin = System.getProperty("myLogin");
         String myPassword = System.getProperty("password");
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());

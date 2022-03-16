@@ -9,13 +9,12 @@ import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
-import static com.codeborne.selenide.Selenide.getUserAgent;
 
 public class TestBase {
 
     @BeforeAll
     static void setUp() {
-        String myLogin = System.getProperty("login");
+        String myLogin = System.getProperty("mylogin");
         String myPassword = System.getProperty("password");
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());

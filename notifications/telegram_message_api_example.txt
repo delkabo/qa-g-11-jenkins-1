@@ -5,11 +5,11 @@ CHAT_ID -1001409033131
 curl -X POST \
      -H 'Content-Type: application/json' \
      -d '{"chat_id": "-1001409033131", "text": "This is a test from delkabo"}' \
-     https://api.telegram.org/bot5103668287:AAFou5uLy5cXaGiz_Lb14QTZfWhnVZe6wfw/sendMessage
+     https://api.telegram.org/bot"Code:Bot"/sendMessage
 
 // Command in one line
-        curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001409033131", "text": "This is a test from delkabo"}' https://api.telegram.org/bot5103668287:AAFou5uLy5cXaGiz_Lb14QTZfWhnVZe6wfw/sendMessage
+        curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001409033131", "text": "This is a test from delkabo"}' https://api.telegram.org/bot"Code:Bot"/sendMessage
 
         // send a message to myself
-        curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "267756917", "text": "This is a test from delkabo"}' https://api.telegram.org/bot5103668287:AAFou5uLy5cXaGiz_Lb14QTZfWhnVZe6wfw/sendMessage
+        curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "267756917", "text": "This is a test from delkabo"}' https://api.telegram.org/bot"Code:Bot"/sendMessage
 
